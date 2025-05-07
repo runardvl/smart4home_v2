@@ -27,8 +27,7 @@ const slots = defineSlots();
       </slot>
     </div>
     <div>
-      <img src="~/assets/images/home-hero.svg" alt="" />
-      <!-- <NuxtImg src="~/assets/images/home-hero.svg" alt="" /> -->
+      <NuxtImg src="/images/main-page/home-hero.svg" alt="" />
     </div>
   </main>
 </template>
