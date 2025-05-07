@@ -5,34 +5,23 @@ descriptiton: Тут будет контент для главной стран�
 
 # Главная страница
 
-Просто текст
+::home-hero
+#title
+Discover the <br> [UI]{.text-primary} x [Content]{.text-primary} x [Studio]{.text-primary} <br> combo
 
-> вот такие дела
+#description
+The best tools for creating and editing websites content come from the powerful combination of Nuxt Studio, Nuxt Content, and Nuxt UI
 
-это *курсив*
+#links
+  :::u-button
+  ---
+  color: gray
+  size: lg
+  target: _blank
+  to: https://nuxt.Studio
+  variant: outline
+  ---
+  Nuxt Studio and some
+  :::
+::
 
-это **жирный**
-
-```ts
-const a: string = "World";
-console.log(`Hello ${a}`);
-```
-
-```bash
-npm run dev
-# or
-bun run dev
-```
-
-```yml
-config:
-  some: "hi"
-```
-
-Внутри текста кусок кода
-`const code: string = 'highlighted code inline'`
-с подсветкой синтаксиса
-
-> Block quote
-
-![A Pinguin Image](/images/main-page/pinguin.jpg)

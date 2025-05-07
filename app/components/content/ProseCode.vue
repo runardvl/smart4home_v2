@@ -1,11 +1,10 @@
 <script setup lang="ts">
-const props = defineProps({
+defineProps({
   class: {
     type: String,
     default: null,
   },
 });
-console.log(props.class);
 </script>
 
 <template>
@@ -18,3 +17,10 @@ console.log(props.class);
     <slot
   /></code>
 </template>
+
+<style scoped>
+code::after,
+code::before {
+  content: "";
+}
+</style>

@@ -16,6 +16,8 @@ if (!page.value) {
 </script>
 
 <template>
-  <ContentRenderer v-if="page" :value="page" />
-  <div v-else>Page not found</div>
+  <div class="container">
+    <ContentRenderer v-if="page" :value="page" class="prose" />
+    <div v-else>Page not found</div>
+  </div>
 </template>
