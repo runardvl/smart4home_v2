@@ -22,7 +22,7 @@ const isExternal = computed(() => {
     :href="props.href"
     :target="isExternal ? '_blank' : null"
     :rel="isExternal ? 'noopener noreferrer' : null"
-    class="font-bold border-b border-primary-400 no-underline hover:border-b-2 inline-flex items-center gap-1"
+    class="border-b border-primary-400 no-underline inline-flex items-center gap-1"
   >
     <slot />
     <UIcon v-if="isExternal" name="mdi:launch" />
